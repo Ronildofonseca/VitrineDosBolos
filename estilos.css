@@ -116,6 +116,7 @@
       .menus:hover .text p {
         color: rgba(0, 0, 0, 0.8);
       }
+      
 
 }
 
@@ -141,3 +142,13 @@
       }
 
 }
+@media (max-width: 767px) {
+    /* Estilos para dispositivos móveis */
+    .menu-title {
+      font-size: 1.5rem;
+    }
+
+    .price {
+      font-size: 1rem;
+    }
+  }
