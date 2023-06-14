@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="cakes/Vitrine.png" type="image/x-icon">
+  <title>Vitrine dos Bolos</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md bg-danger bg-gradient bg-opacity-75 ">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#">Vitrine dos Bolos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item ">
+            <a class="nav-link active text-danger-emphasis" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-danger-emphasis" href="#galeria">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-danger-emphasis" href="#sobre">Sobre a Vitrine</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-danger-emphasis" href="#cardapio">Cardápio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-danger-emphasis" href="#inspiracoes">Inspirações</a>
+          </li>
+        </ul>
+        <div>
+          <a class="fs-5 text-decoration-none text-danger-emphasis"
+            href="https://api.whatsapp.com/send/?phone=5582993738128&text&type=phone_number&app_absent=0"
+            target="_blank">Faça seu pedido <i class="bi bi-whatsapp fs-3 text-danger-emphasis"></i> </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="w-100 img-fluid d-md-none" src="cakes/telaMedia1.jpg"
+          alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás.">
+        <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="cakes/telaMedia1.jpg"
+          alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás.">
+        <img class="w-100 img-fluid d-none d-xl-block" src="cakes/telamaior2.jpg"
+          alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás.">
+        <div class="carousel-caption d-md-block d-sm-block  d-lg-block text-ligth bg-danger opacity-75 rounded">
+          <h1 class="fw-bold">Vitrine dos Bolos</h1>
+          <h5>Memórias em sabores!</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="w-100 img-fluid d-md-none" src="cakes/telaMedia3.jpg"
+          alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
+        <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="cakes/telaMedia3.jpg"
+          alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
+        <img class="w-100 img-fluid d-none d-xl-block" src="cakes/telaGrande3.jpg"
+          alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
+        <div class="carousel-caption d-md-block d-sm-block  d-lg-block text-ligth bg-danger opacity-75 rounded">
+          <h1 class="fw-bold">Vitrine dos Bolos</h1>
+          <h5>Memórias em sabores!</h5>
+          <p class="fw-lighter">O bolo que precisas, para todos os momentos.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="w-100 img-fluid d-md-none" src="cakes/telamedia2.jpg"
+          alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
+        <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="cakes/telamedia2.jpg"
+          alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
+        <img class="w-100 img-fluid d-none d-xl-block" src="cakes/tela maior.jpg"
+          alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
+        <div class="carousel-caption d-md-block d-sm-block  d-lg-block text-ligth bg-danger opacity-75 rounded">
+          <h1 class="fw-bold">Vitrine dos Bolos</h1>
+          <h5>Memórias em sabores!</h5>
+          <p class="fw-lighter">O bolo que precisas, para todos os momentos.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+
+  <h2 class="text-center text-bg-danger fw-bold  p-3 mb-5">Encontre o que desejas</h2>
+
+  <div class="container row mx-auto g-4">
+
+    <div class=" text-center col-6 col-md-4 col-xxl-2">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none d-block" src="cakes/galeria 5.jpeg" alt="Bolo branco com dourado de um andar.">
+        <img class="d-none d-md-block d-xl-none" src="cakes/galeria 5.jpeg" alt="Bolo branco com dourado de um andar.">
+        <img class="d-none d-xl-block" src="cakes/galeria 5.jpeg" alt="Bolo branco com dourado de um andar.">
+        <div class="card-header bg-black text-bg-dark">
+          <p class="text-center card-text">
+            Casamentos
+          </p>
+          <a href="#" class="btn btn-danger botao-lilas rounded-0 border-0" data-bs-toggle="modal"
+            data-bs-target="#modalExemplo">Ver mais</a>
+
+          <!-- Modal -->
+          <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog " role="document">
+              <div class="modal-content">
+                <div class="modal-header ">
+                  <h5 class="modal-title" id="exampleModalLabel">Detalhes do Produto</h5>
+                  <button type="button" class="close" data-bs-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body ">
+                  <img src="cakes/galeria 5.jpeg" alt="Bolo branco e dourado de um andar."
+                    class="img-fluid col-12 col-md-12 col-xxl-12 rounded ">
+                  <h5 class="text-danger fw-bold mt-2">Bolos de Casamentos</h5>
+                  <p class="text-danger">Não fazemos apenas bolos, eternizamos memórias em forma de sabores! <br> Consulte nosso cardápio e veja a nossa tabela de preços! 
+                  </p>
+                  <p>Descrição detalhada do produto. <br>
+                   
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                  <a href="https://api.whatsapp.com/send/?phone=5582993738128&text&type=phone_number&app_absent=0"
+                    target="_blank"><button type="button" class="btn btn-danger">Fazer encomenda</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center col-6 col-md-4 col-xxl-2">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none d-block" src="cakes/delibox.jpeg" alt="Salgados em cima da mesa">
+        <img class="d-none d-md-block d-xl-none" src="cakes/delibox.jpeg" alt="Salgados em cima da mesa">
+        <img class="d-none d-xl-block" src="cakes/delibox.jpeg" alt="Salgados em cima da mesa">
+        <div class="card-header bg-black text-bg-dark">
+          <p class="text-center card-text">
+            Delibox
+          </p>
+          <a href="#" class="btn btn-danger botao-lilas rounded-0 border-0" data-bs-toggle="modal"
+            data-bs-target="#modalExemplo">Ver mais</a>
+
+          <!-- Modal -->
+          <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog " role="document">
+              <div class="modal-content">
+                <div class="modal-header ">
+                  <h5 class="modal-title" id="exampleModalLabel">Detalhes do Produto</h5>
+                  <button type="button" class="close" data-bs-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body ">
+                  <img src="cakes/bolo11.jpeg" alt="Bolo branco e dourado de um andar."
+                    class="img-fluid col-12 col-md-12 col-xxl-12 rounded ">
+
+                  <h5 class="text-danger fw-bold mt-2">Delibox</h5>
+                  <p class="text-danger">O lanche de todas as horas e em qualquer lugar!<br> Consulte nosso cardápio e veja a nossa tabela de preços! 
+                  </p>
+                  <p>Descrição detalhada do produto. <br>
+                   
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                  <a href="https://api.whatsapp.com/send/?phone=5582993738128&text&type=phone_number&app_absent=0"
+                    target="_blank"><button type="button" class="btn btn-danger">Fazer encomenda</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center col-6 col-md-4 col-xxl-2">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none d-block" src="cakes/bolo11.jpeg" alt="Bolo vermelho e bordaas verdes co o tema Natal.">
+        <img class="d-none d-md-block d-xl-none" src="cakes/bolo11.jpeg"
+          alt="Bolo vermelho e bordaas verdes co o tema Natal.">
+        <img class="d-none d-xl-block" src="cakes/bolo11.jpeg" alt="Bolo vermelho e bordaas verdes co o tema Natal.">
+        <div class="card-header bg-black text-bg-dark">
+          <p class="text-center card-text">
+            Temáticos
+          </p>
+          <a href="#" class="btn btn-danger botao-lilas rounded-0 border-0" data-bs-toggle="modal"
+            data-bs-target="#modalExemplo">Ver mais</a>
+
+          <!-- Modal -->
+          <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog " role="document">
+              <div class="modal-content">
+                <div class="modal-header ">
+                  <h5 class="modal-title" id="exampleModalLabel">Detalhes do Produto</h5>
+                  <button type="button" class="close" data-bs-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body ">
+                  <img src="cakes/bolo11.jpeg" alt="Bolo branco e dourado de um andar."
+                    class="img-fluid col-12 col-md-12 col-xxl-12 rounded ">
+
+                  <h5 class="text-danger fw-bold mt-2">Bolos temáticos</h5>
+                  <p class="text-danger">Não importa a época a Vitrine está sempre pronta para fazer o seu bolo! <br> Consulte nosso cardápio e veja a nossa tabela de preços! 
+                  </p>
+                  <p>Descrição detalhada do produto. <br>
+                   
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                  <a href="https://api.whatsapp.com/send/?phone=5582993738128&text&type=phone_number&app_absent=0"
+                    target="_blank"><button type="button" class="btn btn-danger">Fazer encomenda</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class=" text-center col-6 col-md-4 col-xxl-2">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none d-block" src="cakes/galeria 8.jpeg" alt="Bolo branco com chocolate com o tema diverso.">
+        <img class="d-none d-md-block d-xl-none" src="cakes/galeria 8.jpeg"
+          alt="Bolo branco com chocolate com o tema diverso.">
+        <img class="d-none d-xl-block" src="cakes/galeria 8.jpeg" alt="Bolo branco com chocolate com o tema diverso.">
+        <div class="card-header bg-black text-bg-dark">
+          <p class="text-center card-text">
+            Diversos
+          </p>
+          <a href="#" class="btn btn-danger botao-lilas rounded-0 border-0" data-bs-toggle="modal"
+            data-bs-target="#modalExemplo">Ver mais</a>
+
+          <!-- Modal -->
+          <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog " role="document">
+              <div class="modal-content">
+                <div class="modal-header ">
+                  <h5 class="modal-title" id="exampleModalLabel">Detalhes do Produto</h5>
+                  <button type="button" class="close" data-bs-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body ">
+                  <img src="cakes/bolo11.jpeg" alt="Bolo branco e dourado de um andar."
+                    class="img-fluid col-12 col-md-12 col-xxl-12 rounded ">
+
+                  <h5 class="text-danger fw-bold mt-2">Bolos Diversos</h5>
+                  <p class="text-danger">Não fazemos apenas bolos, eternizamos memórias em forma de sabores! <br> Consulte nosso cardápio e veja a nossa tabela de preços! 
+                  </p>
+                  <p>Descrição detalhada do produto. <br>
+                   
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                  <a href="https://api.whatsapp.com/send/?phone=5582993738128&text&type=phone_number&app_absent=0"
+                    target="_blank"><button type="button" class="btn btn-danger">Fazer encomenda</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class=" text-center col-6 col-md-4 col-xxl-2">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none d-block" src="cakes/galeria 9.jpeg" alt="Bolo rosa com dourado e rosas em sua lateral.">
+        <img class="d-none d-md-block d-xl-none" src="cakes/galeria 9.jpeg"
+          alt="Bolo rosa com dourado e rosas em sua lateral.">
+        <img class="d-none d-xl-block" src="cakes/galeria 9.jpeg" alt="Bolo rosa com dourado e rosas em sua lateral.">
+        <div class="card-header bg-black text-bg-dark">
+          <p class="text-center card-text">
+            Aniversários
+          </p>
+          <a href="#" class="btn btn-danger botao-lilas rounded-0 border-0" data-bs-toggle="modal"
+            data-bs-target="#modalExemplo">Ver mais</a>
+
+          <!-- Modal -->
+          <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog " role="document">
+              <div class="modal-content">
+                <div class="modal-header ">
+                  <h5 class="modal-title" id="exampleModalLabel">Detalhes do Produto</h5>
+                  <button type="button" class="close" data-bs-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body ">
+                  <img src="cakes/galeria 9.jpeg" alt="Bolo branco e dourado de um andar."
+                    class="img-fluid col-12 col-md-12 col-xxl-12 rounded ">
+
+                  <h5 class="text-danger fw-bold mt-2">Aniversários</h5>
+                  <p class="text-danger">Não fazemos apenas bolos, eternizamos memórias em forma de sabores! <br> Consulte nosso cardápio e veja a nossa tabela de preços! 
+                  </p>
+                  <p>Descrição detalhada do produto. <br>
+                   
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                  <a href="https://api.whatsapp.com/send/?phone=5582993738128&text&type=phone_number&app_absent=0"
+                    target="_blank"><button type="button" class="btn btn-danger">Fazer encomenda</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-xxl-2">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none d-block" src="cakes/festa na caixa.jpeg"
+          alt="Bolo branco com dourado e flores naturais dentro da caixa">
+        <img class="d-none d-md-block d-xl-none" src="cakes/festa na caixa.jpeg"
+          alt="Bolo branco com dourado e flores naturais dentro da caixa">
+        <img class="d-none d-xl-block" src="cakes/festa na caixa.jpeg"
+          alt="Bolo branco com dourado e flores naturais dentro da caixa">
+        <div class="text-center card-header bg-black text-bg-dark">
+          <p class="text-center card-text">
+            Festa na caixa
+          </p>
+          <a href="#" class="btn btn-danger botao-lilas rounded-0 border-0" data-bs-toggle="modal"
+            data-bs-target="#modalExemplo">Ver mais</a>
+
+          <!-- Modal -->
+          <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog " role="document">
+              <div class="modal-content">
+                <div class="modal-header ">
+                  <h5 class="modal-title" id="exampleModalLabel">Detalhes do Produto</h5>
+                  <button type="button" class="close" data-bs-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body ">
+                  <img src="cakes/festa na caixa.jpeg" alt="Bolo branco e dourado de um andar."
+                    class="img-fluid col-12 col-md-12 col-xxl-12 rounded ">
+
+                  <h5 class="text-danger fw-bold mt-2">Festa na Caixa</h5>
+                  <p class="text-danger">Sua festa de uma forma exclusiva e muito especial, uma verdadeira festa na caixa. <br> Consulte nosso cardápio e veja a nossa tabela de preços! 
+                  </p>
+                  <p>Descrição detalhada do produto. <br>
+                   
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                  <a href="https://api.whatsapp.com/send/?phone=5582993738128&text&type=phone_number&app_absent=0"
+                    target="_blank"><button type="button" class="btn btn-danger">Fazer encomenda</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <h2 class=" text-center my-3 my-xl-5 ext-center text-bg-danger fw-bold  p-3" id="galeria">Produtos que estão bombando!</h2>
+
+  <div class="container">
+  
+    <div class="row pb-3">
+      <div class="col-md-4">
+        <img src="cakes/bolo1.jpeg" alt="Bolo 1" class="rounded-3 p-1 w-100 img-fluid">
+        
+      </div>
+      <div class="col-md-4">
+        
+        <img src="cakes/bolo2.jpeg" alt="Bolo 1" class="rounded-3 p-1 w-100 img-fluid">
+       
+      </div>
+      <div class="col-md-4">
+        
+        <img src="cakes/bolo3.jpeg" alt="Bolo 1" class="rounded-3 p-1 w-100 img-fluid">
+       
+      </div>
+      <div class="col-md-4">
+       
+        <img src="cakes/bolo4.png" alt="Bolo 1" class="rounded-3 p-1 w-100 img-fluid">
+        
+      </div>
+      <div class="col-md-4">
+        
+        <img src="cakes/bolo5.png" alt="Bolo 1" class="rounded-3 p-1 w-100 img-fluid">
+        
+      </div>
+      <div class="col-md-4">
+        <img src="cakes/bolo1.jpeg" alt="Bolo 1" class="rounded-3 p-1 w-100 img-fluid">
+       
+      </div>
+      <div class="col-md-4">
+        <img src="cakes/bolo7.jpeg" alt="Bolo 3" class="rounded-3 p-1 w-100 img-fluid">
+      </div>
+      <div class="col-md-4">
+        <img src="cakes/bolo8.jpeg" alt="Bolo 3" class="rounded-3 p-1 w-100 img-fluid">
+      </div>
+      <div class="col-md-4">
+        <img src="cakes/bolo9.jpeg" alt="Bolo 3" class="rounded-3 p-1 w-100 img-fluid">
+      </div>
+      <div class="col-md-4">
+        <img src="cakes/delibox-cakes.png" alt="Bolo 3" class="rounded-3 p-1 w= 100 img-fluid">
+      </div>
+      <div class="col-md-4">
+        <img src="cakes/donuts.jpeg" alt="Bolo 3" class="rounded-3 p-1 w= 100 img-fluid">
+      </div>
+      <div class="col-md-4">
+        <img src="cakes/delibox.jpeg" alt="Bolo 3" class="rounded-3 p-1 w= 100 img-fluid">
+      </div>
+    </div>
+    <!-- Adicione mais divs com a classe "col-md-4" para exibir outras imagens da galeria -->
+  </div>
+
+  <section class="pb-4 bg-black text-bg-dark">
+
+    <h2 class="text-center pb-3">Conheça todas as nossas facilidades</h2>
+
+    <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3">
+      <div class="divs-facilidades d-flex align-items-center">
+        <div><i class="text-danger-emphasis bi bi-x-diamond fs-1"></i></div>
+        <div>
+          <div class="ms-3 mb-1 text-danger-emphasis">PAGUE PELO PIX</div>
+          <div class="texto-menor ms-3">{chave pix}</div>
+        </div>
+      </div>
+
+      <div class="divs-facilidades d-flex">
+        <div><i class="text-danger-emphasis bi bi-arrow-repeat fs-1"></i></div>
+        <div>
+          <div class="ms-3 mb-1 text-danger-emphasis">50% AO FECHAR O PEDIDO <br>
+            50% RESTANTES NA ENTREGA</div>
+          <div class="texto-menor ms-3">Entrega precisa ser combinado no ato do pedido</div>
+        </div>
+      </div>
+
+      <div class="divs-facilidades d-flex">
+        <div><i class="text-danger-emphasis bi bi-flower1 fs-1"></i></div>
+        <div>
+          <div class="ms-3 mb-1 text-danger-emphasis">PEDIDOS PELO WHATSAPP</div>
+          <div class="texto-menor ms-3"><a class="fs-6 text-decoration-none text-light "
+              href="https://api.whatsapp.com/send/?phone=5582993738128&text&type=phone_number&app_absent=0"
+              target="_blank">Faça seu pedido aqui <i class="bi bi-whatsapp fs-6 "></i> </a></div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <h2 class=" text-center my-3 my-xl-5 ext-center text-bg-danger fw-bold p-3" id="sobre">Sobre a Vitrine</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="cakes/confeiteira.png" class="img-fluid h-100"
+          alt="Cintura, pernas e pés de modelo feminina vestindo sobretudo de cor predominante bege com detalhes em tom vermelho e escuro, com calça e par de sapatos na cor preta, segurando bolsa na cor bege, com fundo de prédio."
+          style="max-width: 100%;">
+      </div>
+      <div class="col-md-6">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Uma linda história</h5>
+            <p class="card-text fw-lighter">A necessidade gera oportunidades! E esse foi o pontapé inicial para a
+              criação da Vitrine dos Bolos, a necessidade de ter um bolo após o cancelamento de um pedido no dia do
+              aniversário de 15 anos de minha filha. Prometi que não precisaria mais passar por aquele momento de tensão
+              e instabilidade e que agora seria quem iria produzir os bolos de minhas filhas. E fui aprimorando meus
+              conhecimentos, pois já fazia bolos, porém nada profissional ou para venda; fui estendendo essas produções
+              para a família e depois amigos e aí veio a oportunidade e bateu a porta, "TOC, TOC! Vamos ter uma renda
+              fazendo o que ama?" E hoje a Vitrine dos Bolos está aí, tornando momentos tão especiais ainda mais
+              saborosos! O primeiro pedaço deste bolo vai para..........DEUS! Por tudo quanto tem feito por mim e por me
+              proporcionar viver tudo isto, apenas GRATIDÃO!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <h2 class=" text-center my-3 my-xl-5 ext-center text-bg-danger fw-bold  p-3" id="cardapio">Cárdapio</h2>
+  </div>
+  <section class="ftco-section" id="menu">
+    <div class="container-fluid px-4">
+      <div class="row justify-content-center mb-5 pb-2">
+        <div class="col-md-7 text-center heading-section ftco-animate">
+
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 col-lg-4 menu-wrap">
+            <div class="heading-menu text-center ftco-animate">
+              <h3>Bolos Quadrados</h3>
+            </div>
+            <div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url(cakes/icon2.png);"></div>
+              <div class="text">
+                <div class="d-flex">
+                  <div class="one-half">
+                    <h3>15cm (18 fatias)</h3>
+                  </div>
+                  <div class="one-forth">
+                    <span class="price">R$ 75,00</span>
+                  </div>
+                </div>
+                <p><span>Brigadeiro Gourmet / Branco </span>, <span>Bejinho</span>,
+                  <span>Paçoca</span>,
+                  <span>Mousse Maracujá / Morango</span>
+                </p>
+              </div>
+            </div>
+            <div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url(cakes/icon2.png);"></div>
+              <div class="text">
+                <div class="d-flex">
+                  <div class="one-half">
+                    <h3>18cm (25 fatias)</h3>
+                  </div>
+                  <div class="one-forth">
+                    <span class="price">R$ 90,00</span>
+                  </div>
+                </div>
+                <p><span>Brigadeiro Gourmet / Branco </span>, <span>Bejinho</span>,
+                  <span>Paçoca</span>,
+                  <span>Mousse Maracujá / Morango</span>
+                </p>
+              </div>
+            </div>
+            <div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url(cakes/icon2.png);"></div>>
+              <div class="text">
+                <div class="d-flex">
+                  <div class="one-half">
+                    <h3>20cm (30 fatias)</h3>
+                  </div>
+                  <div class="one-forth">
+                    <span class="price">R$ 120,00</span>
+                  </div>
+                </div>
+                <p><span>Brigadeiro Gourmet / Branco </span>, <span>Bejinho</span>,
+                  <span>Paçoca</span>,
+                  <span>Mousse Maracujá / Morango</span>
+                </p>
+              </div>
+            </div>
+            <div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url(cakes/icon2.png);"></div>
+              <div class="text">
+                <div class="d-flex">
+                  <div class="one-half">
+                    <h3>25cm (50 fatias)</h3>
+                  </div>
+                  <div class="one-forth">
+                    <span class="price">R$ 200,00</span>
+                  </div>
+                </div>
+                <p><span>Brigadeiro Gourmet / Branco </span>, <span>Bejinho</span>,
+                  <span>Paçoca</span>,
+                  <span>Mousse Maracujá / Morango</span>
+                </p>
+              </div>
+            </div>
+            <div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url(cakes/icon2.png);"></div>
+              <div class="text">
+                <div class="d-flex">
+                  <div class="one-half">
+                    <h3>30cm (70 fatias)</h3>
+                  </div>
+                  <div class="one-forth">
+                    <span class="price">R$ 250,00</span>
+                  </div>
+                </div>
+                <p><span>Brigadeiro Gourmet / Branco </span>, <span>Bejinho</span>,
+                  <span>Paçoca</span>,
+                  <span>Mousse Maracujá / Morango</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 menu-wrap">
+            <div class="heading-menu text-center ftco-animate">
+              <h3>Bolos Redondos</h3>
+            </div>
+            <div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url(cakes/icon.png);background-repeat: no-repeat;">
+              </div>
+              <div class="text">
+                <div class="d-flex">
+                  <div class="one-half">
+                    <h3>15cm (12 a 15 fatias)</h3>
+                  </div>
+                  <div class="one-forth">
+                    <span class="price">R$ 65,00</span>
+                  </div>
+                </div>
+                <p><span>Brigadeiro Gourmet / Branco </span>, <span>Bejinho</span>,
+                  <span>Paçoca</span>,
+                  <span>Mousse Maracujá / Morango</span>
+                </p>
+              </div>
+            </div>
+            <div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url(cakes/icon.png);background-repeat: no-repeat;">
+              </div>
+              <div class="text">
+                <div class="d-flex">
+                  <div class="one-half">
+                    <h3>18cm (18 a 20 fatias)</h3>
+                  </div>
+                  <div class="one-forth">
+                    <span class="price">R$80,00</span>
+                  </div>
+                </div>
+                <p><span>Brigadeiro Gourmet / Branco </span>, <span>Bejinho</span>,
+                  <span>Paçoca</span>,
+                  <span>Mousse Maracujá / Morango</span>
+                </p>
+              </div>
+            </div>
+            <div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url(cakes/icon.png);background-repeat: no-repeat;">
+              </div>
+              <div class="text">
+                <div class="d-flex">
+                  <div class="one-half">
+                    <h3>20cm (25 a 30 fatias)</h3>
+                  </div>
+                  <div class="one-forth">
+                    <span class="price">R$100</span>
+                  </div>
+                </div>
+                <p><span>Brigadeiro Gourmet / Branco </span>, <span>Bejinho</span>,
+                  <span>Paçoca</span>,
+                  <span>Mousse Maracujá / Morango</span>
+                </p>
+              </div>
+            </div>
+            <div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url(cakes/icon.png);background-repeat: no-repeat;">
+              </div>
+              <div class="text">
+                <div class="d-flex">
+                  <div class="one-half">
+                    <h3>25cm (40 a 45 fatias)</h3>
+                  </div>
+                  <div class="one-forth">
+                    <span class="price">R$150</span>
+                  </div>
+                </div>
+                <p><span>Brigadeiro Gourmet / Branco </span>, <span>Bejinho</span>,
+                  <span>Paçoca</span>,
+                  <span>Mousse Maracujá / Morango</span>
+                </p>
+              </div>
+            </div>
+            <div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url(cakes/icon.png); background-repeat: no-repeat;">
+              </div>
+              <div class="text">
+                <div class="d-flex">
+                  <div class="one-half">
+                    <h3>30cm (55 a 60 fatias)</h3>
+                  </div>
+                  <div class="one-forth">
+                    <span class="price">R$200</span>
+                  </div>
+                </div>
+                <p><span>Brigadeiro Gourmet / Branco </span>, <span>Bejinho</span>,
+                  <span>Paçoca</span>,
+                  <span>Mousse Maracujá / Morango</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 menu-wrap">
+          <div class="heading-menu text-center ftco-animate">
+            <h3>Doces/Salgados</h3>
+          </div>
+          <div class="menus d-flex ftco-animate">
+            <div class="menu-img img" style="background-image: url(cakes/icon3.png);background-repeat: no-repeat;">
+            </div>
+            <div class="text">
+              <div class="d-flex">
+                <div class="one-half">
+                  <h3>Delibox(35 und)</h3>
+                </div>
+
+              </div>
+              <div class="one-forth">
+                <span class="price">R$ 35,00</span>
+              </div>
+              <p><span>Pastéis</span>, <span>Enrroladinhos</span>,
+                <span>Coxinhas</span>,
+                <span>Churros</span>
+              </p>
+            </div>
+          </div>
+          <div class="menus d-flex ftco-animate">
+            <div class="menu-img img" style="background-image: url(cakes/icon3.png);background-repeat: no-repeat;">
+            </div>
+            <div class="text">
+              <div class="d-flex">
+                <div class="one-half">
+                  <h3>Doces(cento)</h3>
+                </div>
+
+              </div>
+              <div class="one-forth">
+                <span class="price">R$ 60,00</span>
+              </div>
+              <p><span>Brigadeiro Gourmet</span>, <span>Bejinho</span>,
+                <span>Copinho Recheado</span>,
+                <span>Truffas</span>
+              </p>
+            </div>
+          </div>
+          <div class="menus d-flex ftco-animate">
+            <div class="menu-img img" style="background-image: url(cakes/icon3.png);background-repeat: no-repeat;">
+            </div>
+            <div class="text">
+              <div class="d-flex">
+                <div class="one-half">
+                  <h3>Salgados(cento)</h3>
+                </div>
+
+              </div>
+              <div class="one-forth">
+                <span class="price">R$ 60,00</span>
+              </div>
+              <p><span>Coxinhas</span>, <span>Bolinhos de queijo/misto</span>,
+                <span>Pastéis</span>,
+                <span>Empadas</span>
+              </p>
+            </div>
+          </div>
+          <div class="menus d-flex ftco-animate">
+            <div class="menu-img img" style="background-image: url(cakes/icon3.png);background-repeat: no-repeat;">
+            </div>
+            <div class="text">
+              <div class="d-flex">
+                <div class="one-half">
+                  <h3>Donuts (und)</h3>
+                </div>
+
+              </div>
+              <div class="one-forth">
+                <span class="price">R$ 7,00</span>
+              </div>
+              <p><span>Doce de Leite</span>, <span>Brigadeiro</span>,
+                <span>Bejinho</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <h2 class=" text-center my-3 my-xl-5 text-center text-bg-danger fw-bold  p-3" id="inspiracoes">Busque Inspirações</h2>
+  
+  <section class=" bg-light" >
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-7 text-center">
+          
+        </div>
+      
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="single-cat-widget">
+            <div class="content relative">
+              <div class="overlay overlay-bg"></div>
+              <a class="text-decoration-none text-danger-emphasis"
+                href="https://br.pinterest.com/lidyro2005/bolos-inspira%C3%A7%C3%A3o/" target="_blank">
+                <div class="thumb">
+                  <img src="cakes/pinterest.png" alt=""
+                    class="content-image img-fluid d-block mx-auto w-50 rounded-pill">
+                </div>
+                <div class="content-details text-center">
+                  <h4 class="content-title mx-auto text-uppercase">Pinterest</h4>
+                  <span></span>
+                  <p>Inspirações para todos os gostos.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="single-cat-widget">
+            <div class="content relative">
+              <div class="overlay overlay-bg"></div>
+              <a class="text-decoration-none text-danger-emphasis"
+                href="https://www.google.com/search?hl=pt-BR&sxsrf=APwXEdfpo3TIVOi7R6sv8OlEztqFBt63rQ:1683950179690&q=inspira%C3%A7%C3%B5es+de+bolos&tbm=isch&source=univ&fir=ZF5IHIV3n9436M%252CC6h9CT8WmiXSkM%252C_%253BRLhkEBctbPlafM%252CMNvsdIP3iZHXyM%252C_%253BRQcgFBzKcV4JhM%252CGlS4S4n15k3MpM%252C_%253Bjh3oyLFDARHXhM%252C8N2xKjsOzuO1GM%252C_%253BS2g3d4OfE9vtWM%252Cve80ERJ82W1D7M%252C_%253B6QsjSrYvEXtsFM%252Cq1preQuYSiGAmM%252C_%253BaywVwQQ0ZvkdIM%252C69U73rMniqjohM%252C_%253BG5ailB4SzlpoSM%252CIVMZi7Uct8M7BM%252C_%253BvAFADVqlxtBheM%252CC6h9CT8WmiXSkM%252C_%253BEAEtBU3T6pqbTM%252Cq1preQuYSiGAmM%252C_%253BwKkQ9VGJrmsuvM%252Ce076qF17EpzPAM%252C_%253B6vEBOX8QplozgM%252C5GfKOM0rii9oWM%252C_%253BnjX_awzaOKFUJM%252Cpjtwrwdz1KIERM%252C_%253Bnuw-FovRTRRnPM%252CXpQGJ6Gfst9K8M%252C_%253BB4uoRrLHejRmPM%252CDVKx8r_uEZcT2M%252C_&usg=AI4_-kSZ00fMX8QPb3ZIGbMYNOGHHDLuoA&sa=X&ved=2ahUKEwjAo56is_H-AhUwBLkGHc1aDSIQjJkEegQIGRAC&biw=1366&bih=560&dpr=1"
+                target="_blank">
+                <div class="thumb">
+                  <img src="cakes/google.jfif" alt="" class="content-image img-fluid d-block mx-auto w-50 rounded-pill">
+                </div>
+                <div class="content-details text-center">
+                  <h4 class="content-title mx-auto text-uppercase">Google</h4>
+                  <span></span>
+                  <p>Ideias que podem te ajudar na descisão.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="single-cat-widget">
+            <div class="content relative">
+              <div class="overlay overlay-bg"></div>
+              <a class="text-decoration-none text-danger-emphasis"
+                href="https://instagram.com/vitrine.dosbolos?igshid=MzRlODBiNWFlZA==" target="_blank">
+                <div class="thumb">
+                  <img src="cakes/insta.png" alt="" class="content-image img-fluid d-block mx-auto w-50 rounded-pill">
+                </div>
+                <div class="content-details text-center">
+                  <h4 class="content-title mx-auto text-uppercase">Instagram</h4>
+                  <span></span>
+                  <p>Minhas Produções</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="text-center bg-danger text-bg-dark">
+    <p class="card-text py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Ronildo Fonseca | Vitrine dos Bolos.
+    </p>
+  </footer>
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
